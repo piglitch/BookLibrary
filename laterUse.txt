@@ -1,0 +1,7 @@
+const listofBooks = document.createElement("li");
+            const node = document.createTextNode(myLibrary[i]);
+
+            listofBooks.appendChild(node);
+
+            const element = document.getElementById("listofBooks");
+            element.appendChild(listofBooks)
