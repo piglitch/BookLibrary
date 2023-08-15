@@ -1,4 +1,93 @@
 body{
-    color: azure;
-    background: darkslategrey;
+    font-family: 'Handjet', cursive;
+    color: rgb(7, 255, 102);
+    background: rgb(29, 29, 29);
 }
+
+h1{
+    font-family: 'Handjet', cursive;
+    text-align: center;
+    color: rgb(7, 255, 102);
+    font-weight: lighter;
+    font-size: 80px;
+    text-shadow: 0 0 15px rgb(255, 0, 157);
+}
+.glow-border {
+    /* Other button styles */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    border: 2px solid transparent; /* Set an initial transparent border */
+    border-radius: 20px;
+    padding: 5px;
+    transition: border-color 0.3s ease-in-out; /* Add a transition effect */
+    cursor: pointer;
+    /* Add a box-shadow for the glow effect */
+    box-shadow: 0 0 8px rgb(255, 0, 191); /* Adjust the color and spread as needed */
+    max-width: 800px;
+  }
+  
+  /* Apply the glow effect when the button is hovered */
+.glow-border:hover {
+    border-color: rgb(255, 0, 191); /* Match the box-shadow color */
+}
+
+[book-name]{
+  padding-left: 20px;
+  align-items: center;
+}
+
+.readUnread{
+  background: None;
+  border: none;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: 10px;
+  font-size: larger;
+}
+.btn_s{
+  background: none;
+  color: rgb(7, 255, 102);
+  border: none;
+  border-radius: 25px;
+  padding: 5px;
+  font-family: 'Handjet', cursive;
+  font-size: larger;
+  cursor: pointer;
+}
+.btn_s:hover{
+  background-color: rgb(255, 0, 191);
+  transition: background-color 0.2s ease-in-out;
+}
+.btn_s:active{
+  background: gray;
+  transform: scale(.95);
+}
+
+#inputForm{
+  text-align: center;
+  align-items: center;
+}
+
+label{
+  margin-left: 15px;
+  font-size: 20px;
+}
+#name{
+  color: rgb(7, 255, 102);
+  border: 1px solid rgb(255, 7, 234);
+  border-radius: 20px;
+  background: none;
+  outline: none;
+  padding: 2px;
+}
+#bookLink{
+  color: rgb(7, 255, 102);
+  border: 1px solid rgb(255, 7, 234);
+  border-radius: 20px;
+  background: none;
+  outline: none;
+  padding: 2px;
+}
+
+

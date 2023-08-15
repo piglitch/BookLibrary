@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap" rel="stylesheet">
+    <title>Library</title>
 </head>
-<body>
+
+    <body>
     <h1>Library</h1>
     <form id="inputForm">
         <label for="name">Name of the book:</label>
         <input type="text" id="name">
         <label for="link">Link:</label>
         <input type="text" id="bookLink">
-        <button type="submit">Submit</button>
-        
-        <Button onclick="showBooks()">Show Books</Button>
+        <button type="submit" class="btn_s">Submit</button>        
+        <Button onclick="showBooks()" class="btn_s">Show Books</Button>
         <p id="listofBooks">                        
-        </p>
-        
+        </p>        
     </form>
     <script src="index.js"></script>
 </body>
