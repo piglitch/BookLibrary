@@ -1,10 +1,12 @@
 let myLibrary = []
 
 // Constructor
-function Book(bookName, btn, bookLink){
+class Book {
+  constructor(bookName, btn, bookLink){
     this.bookName = bookName
     this.bookLink = bookLink
     this.btn = btn
+  }
 }
 
 // Function that adds books
